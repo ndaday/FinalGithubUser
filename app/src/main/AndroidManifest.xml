@@ -21,6 +21,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalGithubUser">
 
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <provider
             android:name=".provider.GithubUserProvider"
             android:authorities="com.daday.finalgithubuser"
@@ -32,15 +41,16 @@
         <activity
             android:name=".SettingActivity"
             android:parentActivityName=".MainActivity" />
+
         <activity
             android:name=".FavoriteActivity"
             android:parentActivityName=".MainActivity" />
+
         <activity android:name=".DetailUserActivity" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 

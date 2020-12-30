@@ -22,5 +22,6 @@
     <string name="alarmon">Pengingat dinyalakan</string>
     <string name="alarmoff">Pengingat dimatikan</string>
     <string name="localization">Pilih Bahasa</string>
+    <string name="image_splashscreen">Image SplashScreen</string>
 
 </resources>

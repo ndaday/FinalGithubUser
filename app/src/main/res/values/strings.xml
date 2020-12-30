@@ -21,5 +21,6 @@
     <string name="alarmon">Reminder is ON</string>
     <string name="alarmoff">Reminder is OFF</string>
     <string name="localization">Select Language</string>
+    <string name="image_splashscreen">Image SplashScreen</string>
 
 </resources>
