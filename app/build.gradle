@@ -17,12 +17,17 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
+        buildConfigField"String", "GITHUB_TOKEN", "\"885b2d6762fa3017d164dd39154e1ae661dcc1e4\""
     }
 
     buildTypes {
         release {
+            buildConfigField"String", "GITHUB_TOKEN", "\"885b2d6762fa3017d164dd39154e1ae661dcc1e4\""
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug{
+            buildConfigField"String", "GITHUB_TOKEN", "\"885b2d6762fa3017d164dd39154e1ae661dcc1e4\""
         }
     }
     compileOptions {

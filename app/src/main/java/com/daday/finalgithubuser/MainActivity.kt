@@ -66,7 +66,6 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, DetailUserActivity::class.java)
         intent.putExtra(DetailUserActivity.ARG_USERNAME, userItems)
         this.startActivity(intent)
-//        Toast.makeText(this, "${userItems.username}", Toast.LENGTH_SHORT).show()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

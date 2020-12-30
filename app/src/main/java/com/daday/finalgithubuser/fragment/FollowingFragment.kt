@@ -18,7 +18,7 @@ class FollowingFragment : Fragment() {
     private lateinit var binding: FragmentFollowingBinding
 
     companion object {
-        private val ARG_USERNAME = "username"
+        private const val ARG_USERNAME = "username"
 
         fun newInstance(username: String?): FollowingFragment {
             val fragment = FollowingFragment()
