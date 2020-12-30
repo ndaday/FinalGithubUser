@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FinalGithubUser.iml" filepath="$PROJECT_DIR$/.idea/modules/FinalGithubUser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FinalGithubUser.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FinalGithubUser.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/consumerapp/FinalGithubUser.consumerapp.iml" filepath="$PROJECT_DIR$/.idea/modules/consumerapp/FinalGithubUser.consumerapp.iml" />
+    </modules>
+  </component>
+</project>
