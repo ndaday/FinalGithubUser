@@ -16,7 +16,7 @@ class MainViewModel : ViewModel() {
 
     val listUsers = MutableLiveData<ArrayList<UserItems>>()
     private val detailUsers = MutableLiveData<UserItems>()
-    val token = BuildConfig.GITHUB_TOKEN
+    private val token = BuildConfig.GITHUB_TOKEN
 
     fun setUsers() {
         val listItems = ArrayList<UserItems>()

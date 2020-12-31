@@ -23,7 +23,6 @@ class DetailUserActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var mainViewModel: MainViewModel
     private lateinit var imgAvatar: String
     private lateinit var uriWithId: Uri
-    private var position: Int = 0
     private var fav: UserItems? = null
     private var isFavorite = false
 

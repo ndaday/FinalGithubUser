@@ -23,5 +23,7 @@
     <string name="alarmoff">Pengingat dimatikan</string>
     <string name="localization">Pilih Bahasa</string>
     <string name="image_splashscreen">Image SplashScreen</string>
+    <string name="todo">TODO</string>
+    <string name="icon">icon</string>
 
 </resources>

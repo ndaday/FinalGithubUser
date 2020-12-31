@@ -171,7 +171,9 @@
                                 android:clickable="true"
                                 app:backgroundTint="#E91E63"
                                 app:fabSize="mini"
-                                app:srcCompat="@drawable/ic_favorite_border" />
+                                app:srcCompat="@drawable/ic_favorite_border"
+                                android:contentDescription="@string/todo"
+                                android:focusable="true" />
                         </LinearLayout>
 
                     </LinearLayout>

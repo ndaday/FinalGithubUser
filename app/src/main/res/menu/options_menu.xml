@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
@@ -7,18 +8,19 @@
         android:icon="@drawable/action_search"
         android:title="@string/search"
         app:actionViewClass="androidx.appcompat.widget.SearchView"
-        app:showAsAction="collapseActionView|always" />
+        app:showAsAction="collapseActionView|ifRoom" />
 
     <item
         android:id="@+id/favorit"
         android:icon="@drawable/ic_favorite"
         android:iconTint="@color/red_a700"
         android:title="@string/favorite"
-        app:showAsAction="always" />
+        app:showAsAction="ifRoom"
+        tools:targetApi="o" />
     <item
         android:id="@+id/setting"
         android:icon="@drawable/action_settings"
         android:title="@string/favorite"
-        app:showAsAction="always" />
+        app:showAsAction="ifRoom" />
 
 </menu>
